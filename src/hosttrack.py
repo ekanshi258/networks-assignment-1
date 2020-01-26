@@ -1,6 +1,7 @@
 import nmap
 import datetime
 import argparse
+import csv
 
 parser = argparse.ArgumentParser(description='Track number of hosts online on LAN')
 parser.add_argument('subnet', metavar = 'PORT', help='subnet to probe')
@@ -18,3 +19,9 @@ time = now.strftime("%d/%m/%Y %H:%M:%S")
 print(time, "hosts up: ", len(hosts_list))
 for host, status in hosts_list:
     print(host + ' ' + status)
+
+fp = open("hosttrack.csv","a")
+w = csv.writer(fp)
+row = [time, len(hosts_list)]
+w.writerow(row)
+fp.close()
