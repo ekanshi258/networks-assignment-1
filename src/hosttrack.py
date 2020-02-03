@@ -20,8 +20,8 @@ print(time, "hosts up: ", len(hosts_list))
 for host, status in hosts_list:
     print(host + ' ' + status)
 
-fp = open("hosttrack.csv","a")
-#fp = open("hostmm.csv","a")        #for Malaviya
+#fp = open("hosttrack.csv","a")
+fp = open("hostmm.csv","a")        #for Malaviya
 w = csv.writer(fp)
 row = [time, len(hosts_list)]
 w.writerow(row)
