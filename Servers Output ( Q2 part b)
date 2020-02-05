@@ -128,10 +128,18 @@ Host is up (0.00032s latency).
 All 1000 scanned ports on 172.16.38.193 are closed
 
 ------------------------------------------------------------------------
-OS output (ran for 64 hosts. anything more taking too long)
-Starting Nmap 7.60 ( https://nmap.org ) at 2020-02-05 19:56 IST
+OS output (ran for 32 hosts. anything more taking too long)
+------------------------------------------------------------------------
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-02-05 23:03 IST
+Nmap scan report for 172.16.126.200
+Host is up (0.00059s latency).
+All 1000 scanned ports on 172.16.126.200 are closed
+MAC Address: 50:3E:AA:9A:D7:D9 (Tp-link Technologies)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
 Nmap scan report for 172.16.126.201
-Host is up (0.0011s latency).
+Host is up (0.00092s latency).
 Not shown: 997 filtered ports
 PORT    STATE SERVICE
 135/tcp open  msrpc
@@ -143,81 +151,68 @@ OS fingerprint not ideal because: Missing a closed TCP port so results incomplet
 No OS matches for host
 Network Distance: 1 hop
 
+Nmap scan report for 172.16.126.203
+Host is up (0.00087s latency).
+Not shown: 995 filtered ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5357/tcp open  wsdapi
+6646/tcp open  unknown
+MAC Address: 80:E8:2C:92:AB:AF (Unknown)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows XP (85%)
+OS CPE: cpe:/o:microsoft:windows_xp::sp2
+Aggressive OS guesses: Microsoft Windows XP SP2 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
 Nmap scan report for 172.16.126.216
-Host is up (0.00053s latency).
+Host is up (0.00064s latency).
 Not shown: 999 closed ports
 PORT   STATE SERVICE
 53/tcp open  domain
 MAC Address: A8:60:B6:05:84:02 (Apple)
 No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
 TCP/IP fingerprint:
-OS:SCAN(V=7.60%E=4%D=2/5%OT=53%CT=1%CU=31578%PV=Y%DS=1%DC=D%G=Y%M=A860B6%TM
-OS:=5E3AD17D%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=10A%TI=Z%CI=RI%TS=A
-OS:)SEQ(SP=105%GCD=1%ISR=10B%TI=Z%TS=A)OPS(O1=M5B4NW6NNT11SLL%O2=M5B4NW6NNT
-OS:11SLL%O3=M5B4NW6NNT11%O4=M5B4NW6NNT11SLL%O5=M5B4NW6NNT11SLL%O6=M5B4NNT11
-OS:SLL)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=N%T=4
-OS:0%W=FFFF%O=M5B4NW6SLL%CC=N%Q=)T1(R=Y%DF=N%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(
-OS:R=N)T3(R=N)T4(R=Y%DF=N%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T4(R=N)T5(R=Y%DF=
-OS:N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=N%T=40%W=0%S=A%A=Z%F=R%O=%
-OS:RD=0%Q=)T6(R=N)T7(R=N)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%
-OS:RUCK=0%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+OS:SCAN(V=7.60%E=4%D=2/5%OT=53%CT=1%CU=36136%PV=Y%DS=1%DC=D%G=Y%M=A860B6%TM
+OS:=5E3AFC96%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10B%TI=Z%CI=RI%TS=A
+OS:)SEQ(SP=103%GCD=1%ISR=107%TI=Z%CI=RI%II=RI%TS=A)OPS(O1=M5B4NW6NNT11SLL%O
+OS:2=M5B4NW6NNT11SLL%O3=M5B4NW6NNT11%O4=M5B4NW6NNT11SLL%O5=M5B4NW6NNT11SLL%
+OS:O6=M5B4NNT11SLL)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(
+OS:R=Y%DF=N%T=40%W=FFFF%O=M5B4NW6SLL%CC=Y%Q=)T1(R=Y%DF=N%T=40%S=O%A=S+%F=AS
+OS:%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=N%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T4(R=
+OS:N)T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=N%T=40%W=0%S=A
+OS:%A=Z%F=R%O=%RD=0%Q=)T7(R=N)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIP
+OS:CK=G%RUCK=0%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
 
 Network Distance: 1 hop
 
+Nmap scan report for 172.16.126.221
+Host is up (-0.019s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE
+5357/tcp open  wsdapi
+MAC Address: A8:1E:84:9F:1D:24 (Quanta Computer)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|general purpose
+Running (JUST GUESSING): AVtech embedded (87%), FreeBSD 6.X|10.X (86%), Microsoft Windows XP (85%)
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:10.3 cpe:/o:microsoft:windows_xp::sp2
+Aggressive OS guesses: AVtech Room Alert 26W environmental monitor (87%), FreeBSD 6.2-RELEASE (86%), FreeBSD 10.3-STABLE (85%), Microsoft Windows XP SP2 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
 Nmap scan report for 172.16.126.222
-Host is up (0.00038s latency).
+Host is up (0.00049s latency).
 All 1000 scanned ports on 172.16.126.222 are filtered
 MAC Address: EC:B1:D7:DB:EB:23 (Hewlett Packard)
 Too many fingerprints match this host to give specific OS details
 Network Distance: 1 hop
 
-Nmap scan report for 172.16.126.234
-Host is up (0.00056s latency).
-Not shown: 999 closed ports
-PORT   STATE SERVICE
-80/tcp open  http
-MAC Address: 54:E1:AD:39:7F:DF (Lcfc(hefei) Electronics Technology)
-No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
-TCP/IP fingerprint:
-OS:SCAN(V=7.60%E=4%D=2/5%OT=80%CT=1%CU=35669%PV=Y%DS=1%DC=D%G=Y%M=54E1AD%TM
-OS:=5E3AD17D%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=10E%TI=Z%CI=Z%TS=A)
-OS:OPS(O1=M5B4ST11NW7%O2=M5B4ST11NW7%O3=M5B4NNT11NW7%O4=M5B4ST11NW7%O5=M5B4
-OS:ST11NW7%O6=M5B4ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)
-OS:ECN(R=Y%DF=Y%T=40%W=FAF0%O=M5B4NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%
-OS:F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T
-OS:5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=
-OS:Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF
-OS:=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40
-OS:%CD=S)
-
-Network Distance: 1 hop
-
-Nmap scan report for 172.16.126.245
-Host is up (-0.099s latency).
-All 1000 scanned ports on 172.16.126.245 are filtered
-MAC Address: D0:37:45:59:7F:B2 (Unknown)
-Too many fingerprints match this host to give specific OS details
-Network Distance: 1 hop
-
-Nmap scan report for 172.16.126.248
-Host is up (0.0012s latency).
-Not shown: 996 filtered ports
-PORT     STATE SERVICE
-135/tcp  open  msrpc
-139/tcp  open  netbios-ssn
-445/tcp  open  microsoft-ds
-3306/tcp open  mysql
-MAC Address: 50:3E:AA:7F:9B:1B (Tp-link Technologies)
-Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
-Device type: general purpose
-Running (JUST GUESSING): Microsoft Windows 2008 (85%)
-OS CPE: cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_server_2008:r2
-Aggressive OS guesses: Microsoft Windows Server 2008 SP1 or Windows Server 2008 R2 (85%)
-No exact OS matches for host (test conditions non-ideal).
-Network Distance: 1 hop
-
 Nmap scan report for 172.16.126.205
-Host is up (0.000014s latency).
+Host is up (0.000094s latency).
 Not shown: 999 closed ports
 PORT   STATE SERVICE
 80/tcp open  http
@@ -228,6 +223,94 @@ OS details: Linux 2.6.32
 Network Distance: 0 hops
 
 OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 64 IP addresses (7 hosts up) scanned in 239.36 seconds
+Nmap done: 32 IP addresses (7 hosts up) scanned in 46.58 seconds
 
+-------------------------------------------------
+Computers
+-------------------------------------------------
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-02-05 23:13 IST
+Nmap scan report for 172.16.126.200
+Host is up (0.00050s latency).
+All 1000 scanned ports on 172.16.126.200 are closed
+MAC Address: 50:3E:AA:9A:D7:D9 (Tp-link Technologies)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
 
+Nmap scan report for 172.16.126.201
+Host is up (0.00047s latency).
+All 1000 scanned ports on 172.16.126.201 are open|filtered
+MAC Address: 10:7D:1A:34:D8:10 (Dell)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 172.16.126.203
+Host is up (0.00052s latency).
+All 1000 scanned ports on 172.16.126.203 are open|filtered
+MAC Address: 80:E8:2C:92:AB:AF (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 172.16.126.216
+Host is up (-0.100s latency).
+All 1000 scanned ports on 172.16.126.216 are open|filtered
+MAC Address: A8:60:B6:05:84:02 (Apple)
+Device type: phone|general purpose
+Running: Apple iOS 7.X|8.X|9.X, Apple OS X 10.10.X|10.11.X, FreeBSD 5.X
+OS CPE: cpe:/o:apple:iphone_os:7 cpe:/o:apple:iphone_os:8 cpe:/o:apple:iphone_os:9 cpe:/o:apple:mac_os_x:10.10 cpe:/o:apple:mac_os_x:10.11 cpe:/o:freebsd:freebsd:5.4
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 172.16.126.221
+Host is up (0.00055s latency).
+All 1000 scanned ports on 172.16.126.221 are open|filtered
+MAC Address: A8:1E:84:9F:1D:24 (Quanta Computer)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 172.16.126.222
+Host is up (-0.100s latency).
+All 1000 scanned ports on 172.16.126.222 are open|filtered
+MAC Address: EC:B1:D7:DB:EB:23 (Hewlett Packard)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 172.16.126.234
+Host is up (0.00065s latency).
+Not shown: 999 closed ports
+PORT   STATE         SERVICE
+80/tcp open|filtered http
+MAC Address: 54:E1:AD:39:7F:DF (Lcfc(hefei) Electronics Technology)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 172.16.126.235
+Host is up (0.00067s latency).
+All 1000 scanned ports on 172.16.126.235 are open|filtered
+MAC Address: 3C:52:82:E6:3B:D8 (Hewlett Packard)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 172.16.126.245
+Host is up (0.00099s latency).
+All 1000 scanned ports on 172.16.126.245 are open|filtered
+MAC Address: D0:37:45:59:7F:B2 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 172.16.126.248
+Host is up (-0.099s latency).
+All 1000 scanned ports on 172.16.126.248 are open|filtered
+MAC Address: 50:3E:AA:7F:9B:1B (Tp-link Technologies)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 172.16.126.205
+Host is up (0.000068s latency).
+Not shown: 999 closed ports
+PORT   STATE         SERVICE
+80/tcp open|filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 64 IP addresses (11 hosts up) scanned in 265.84 seconds
