@@ -1,0 +1,129 @@
+Nmap scan report for 172.16.38.1
+Host is up (0.00013s latency).
+Not shown: 990 closed ports
+PORT      STATE    SERVICE
+21/tcp    filtered ftp
+22/tcp    open     ssh
+111/tcp   filtered rpcbind
+161/tcp   open     snmp
+512/tcp   filtered exec
+513/tcp   filtered login
+514/tcp   filtered shell
+2049/tcp  filtered nfs
+27000/tcp filtered flexlm0
+32768/tcp filtered filenet-tms
+
+Nmap scan report for 172.16.38.10
+Host is up (0.00060s latency).
+All 1000 scanned ports on 172.16.38.10 are closed
+
+Nmap scan report for 172.16.38.20
+Host is up (0.00038s latency).
+All 1000 scanned ports on 172.16.38.20 are closed
+
+Nmap scan report for 172.16.38.36
+Host is up (0.00031s latency).
+All 1000 scanned ports on 172.16.38.36 are closed
+
+Nmap scan report for 172.16.38.52
+Host is up (0.00082s latency).
+All 1000 scanned ports on 172.16.38.52 are closed
+
+Nmap scan report for 172.16.38.56
+Host is up (0.00034s latency).
+All 1000 scanned ports on 172.16.38.56 are closed
+
+Nmap scan report for 172.16.38.58
+Host is up (0.00070s latency).
+Not shown: 976 closed ports
+PORT      STATE    SERVICE
+1/tcp     filtered tcpmux
+32/tcp    filtered unknown
+444/tcp   filtered snpp
+631/tcp   filtered ipp
+898/tcp   filtered sun-manageconsole
+1031/tcp  filtered iad2
+1052/tcp  filtered ddt
+1063/tcp  filtered kyoceranetdev
+1090/tcp  filtered ff-fms
+1131/tcp  filtered caspssl
+1149/tcp  filtered bvtsonar
+2038/tcp  filtered objectmanager
+3306/tcp  open     mysql
+4129/tcp  filtered nuauth
+5190/tcp  filtered aol
+5221/tcp  filtered 3exmp
+6547/tcp  filtered powerchuteplus
+8654/tcp  filtered unknown
+9485/tcp  filtered unknown
+9618/tcp  filtered condor
+20005/tcp filtered btx
+32781/tcp filtered unknown
+49160/tcp filtered unknown
+52822/tcp filtered unknown
+
+Nmap scan report for 172.16.38.60
+Host is up (0.00072s latency).
+All 1000 scanned ports on 172.16.38.60 are closed
+
+Nmap scan report for 172.16.38.61
+Host is up (0.00065s latency).
+Not shown: 993 closed ports
+PORT      STATE    SERVICE
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+1110/tcp  filtered nfsd-status
+2869/tcp  filtered icslap
+3389/tcp  filtered ms-wbt-server
+19780/tcp filtered unknown
+
+Nmap scan report for 172.16.38.62
+Host is up (0.00030s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+902/tcp open  iss-realsecure
+
+Nmap scan report for 172.16.38.63
+Host is up (0.00034s latency).
+All 1000 scanned ports on 172.16.38.63 are closed
+
+Nmap scan report for 172.16.38.78
+Host is up (0.00065s latency).
+Not shown: 971 closed ports, 27 filtered ports
+PORT    STATE SERVICE
+53/tcp  open  domain
+445/tcp open  microsoft-ds
+
+Nmap scan report for 172.16.38.81
+Host is up (0.00038s latency).
+All 1000 scanned ports on 172.16.38.81 are closed
+
+Nmap scan report for 172.16.38.99
+Host is up (0.00035s latency).
+All 1000 scanned ports on 172.16.38.99 are closed
+
+Nmap scan report for 172.16.38.100
+Host is up (0.00018s latency).
+All 1000 scanned ports on 172.16.38.100 are closed
+
+Nmap scan report for 172.16.38.119
+Host is up (0.00023s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 172.16.38.123
+Host is up (0.00044s latency).
+All 1000 scanned ports on 172.16.38.123 are closed
+
+Nmap scan report for 172.16.38.156
+Host is up (0.00056s latency).
+All 1000 scanned ports on 172.16.38.156 are closed
+
+Nmap scan report for 172.16.38.193
+Host is up (0.00032s latency).
+All 1000 scanned ports on 172.16.38.193 are closed
+
