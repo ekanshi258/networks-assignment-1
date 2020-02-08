@@ -1,0 +1,14 @@
+To run the script that checks for hosts up on LAN:
+
+Install:
+    nmap
+    datetime
+    argparse
+    csv
+
+Run:
+sudo bash hosttrack.sh <subnet> <freq>
+
+Bash script will run hosttrack.py <freq> times per hour, for six hours.
+The time to run the bash script can be changed on line no.6 in the while loop condition.
+Results will be appended to hostcount.csv
